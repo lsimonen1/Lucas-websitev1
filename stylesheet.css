@@ -3,21 +3,25 @@
 
 
 body {
-  background-color: black;
-	font-family: Verdana 
-
+font-family: 'Rubik', sans-serif;
+background-image: url("squares.avif");
 }
 h1 {
-  color: whitesmoke;
+  color: lightblue;
 	text-align: center;
-	
+	padding: 0;
+	padding-bottom: 0;
+	padding-top: 25vh;
+	margin-bottom: 0;
+  letter-spacing: 1px;
+	font-size: 300%;
 
 }
 div {
 	color: whitesmoke;
-  	background-color: lightblue;
 	outline-color : white;
-	padding: 35px;
+	padding: 0;
+    text-align: center;
 
 }
 
