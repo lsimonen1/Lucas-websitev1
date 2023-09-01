@@ -4,7 +4,7 @@
 
 body {
 font-family: 'Rubik', sans-serif;
-background-image: url("squares.avif");
+background-color: rgb(196, 196, 187);
 }
 h1 {
   color: lightblue;
