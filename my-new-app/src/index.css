@@ -19,6 +19,12 @@ code {
   text-align: center;
 }
 
+.namePage{
+  height: 100%;
+  padding: 100px;
+  background-color: darkcyan;
+}
+
 .topHalf{
   display: flex;
 
@@ -26,6 +32,24 @@ code {
   width: 13rem;
   }
 
+
+.titleName{
+font-size: 7rem;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+.majorName{
+padding-top: 0;
+margin-top: 0;
+}
+
+.aboutMeSection{
+  margin-left: 8rem;
+  margin-right: 8rem;
+  text-align: center;
+  padding-top: 25%;
+}
   .clearfix::after {
     content: "";
     clear: both;
