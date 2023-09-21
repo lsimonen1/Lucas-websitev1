@@ -1,3 +1,4 @@
+import Name from "./components/Name";
 import TabButton from "./components/TabButton";
 
 

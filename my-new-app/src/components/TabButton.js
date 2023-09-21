@@ -4,6 +4,7 @@ const TabButton = ({title}) => {
   return (
     <div className='TabButton'>
       <button>{title}</button>
+     
     </div>
   )
 }
