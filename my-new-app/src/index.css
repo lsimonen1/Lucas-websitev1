@@ -9,12 +9,6 @@ code {
     monospace;
 }
 
-.TabButton{
- display: flex;
-  width: 4rem;
-  text-align: center;
-  outline: none;
-}
 
 .namePage{
   text-align: center;
@@ -22,49 +16,57 @@ code {
   box-shadow: 0rem 0.5rem 2rem 0.5rem rgba(0,0,0,0.5);
 }
 
+.TabButton{
+  margin: 1rem;
+}
+
 .button{
   background-color:transparent;
   border: none;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  margin-left: 1rem;
+  color:rgb(228, 238, 243);  
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Rubik', sans-serif;
   
 }
 .topHalf{
-
   display: flex;
-  margin: auto;
-  width: 13rem;
   
   }
 
+.aboutMeDiv{
+    display: flex;
+    
+    }
 
 .titleName{
-  margin-top: 25vh;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 30vh;
 font-size: 7rem;
 padding-bottom: 0;
 margin-bottom: 0;
+color:rgb(228, 238, 243);  
+
 }
 
 .majorName{
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Rubik', sans-serif;
 padding-top: 0;
 margin-top: 0;
+color:rgb(228, 238, 243);  
 
 }
 
 .aboutMeSection{
   margin-top: 0;
   padding-top: 0;
-  margin-left: 8rem;
-  margin-right: 8rem;
-  width: 30rem;
+ 
   text-align: center;
-  padding-top: 25%;
+  padding-top: 5rem;
 
 }
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
