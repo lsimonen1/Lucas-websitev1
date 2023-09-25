@@ -3,6 +3,8 @@ import Name from "./Name";
 import TabButton from "./TabButton";
 function Fade() {
 
+ 
+
   const [colorState, setColorState] = useState();
 
   let color1 = 2;
@@ -24,13 +26,13 @@ function Fade() {
         return () => clearInterval(timer);
   }, []);
 
-  return <div style={{ fontSize: "2rem", margin: "0rem", backgroundColor: "rgba(150,"+colorState+","+colorState/4+",1)"}}>
+  return <div style={{ fontSize: "1.2rem", margin: "0rem", backgroundColor: "rgba(200,"+colorState+","+colorState/4+",0.6)"}}>
 
 <div className="namePage" style = {{}}>
       <div className="topHalf">
       <TabButton class = "col-2" title = 'Portfolio' />
       <TabButton class = "col-2"title = 'About Me' />
-      <TabButton class = "col-2"title = 'Download Resume' />
+      <TabButton class = "col-2"title = 'Resume' onClick = "https://uwprod-my.sharepoint.com/:w:/g/personal/lsimonen_wisc_edu/EZ1WbUAQKDtCoU3eg64X1MsBoL-iYzbqCLm65KJXROMckQ?e=GOcMmS"/>
       <TabButton class = "col-2"title = 'Contact Me' />
 </div>
       <header className="App-header">
