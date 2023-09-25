@@ -2,20 +2,11 @@ import React, { useEffect, useState } from "react";
 import Name from "./Name";
 import TabButton from "./TabButton";
 function Fade() {
+
   const [colorState, setColorState] = useState();
 
   let color1 = 2;
   let counter = 1;
-
-/*
-  React.useEffect(() => {
-    const timer =
-      setInterval(() => setColorState(colorState + 1), 1000);
-    return () => clearInterval(timer);
-  }, []);
-*/
-
-
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -26,6 +17,7 @@ function Fade() {
         }else{
             counter = counter * -1;
             color1 = color1 + counter;
+            console.log(colorState);
         }
         setColorState(color1);
         },50)
